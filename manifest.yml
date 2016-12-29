@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: app-test-danvanderbill
+  host: app-test-danvanderbill
+  disk_quota: 1024M
+  services:
+  - app-test-danvanderbill-AdvancedMobileAccess
+  - app-test-danvanderbill-imfpush
+  - app-test-danvanderbill-cloudantNoSQLDB
